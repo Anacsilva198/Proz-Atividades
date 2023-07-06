@@ -1,0 +1,15 @@
+rodas = 
+peso = 
+pessoas = 
+
+
+if (rodas==2) or (rodas==3):
+    print ("Habilitação tipo A")
+elif (rodas==4) and(pessoas<=8)and(peso<=3500):
+    print ("Habilitação tipo B")
+elif (rodas>=4) and(peso>3500)and(peso<6000):
+    print("Habilitação  tipo C")
+elif(rodas>=4)and(pessoas>8):
+    print("Hablitação  tipoD")
+elif(rodas>=4)and(peso>6000):
+    print("Habilitação  tipo E")
